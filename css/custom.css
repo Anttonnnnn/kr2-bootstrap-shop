@@ -2,6 +2,45 @@ body {
   min-height: 100vh;
 }
 
+.header-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/bd.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 150px;
+}
+
+.bg-light {
+  background-color: #e9ecef !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000;
+  border-radius: 50%;
+  padding: 20px;
+  background-size: 50%;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #000;
+}
+
+.toast {
+  background-color: #198754;
+  color: #fff;
+}
+.toast .btn-close-white {
+  filter: invert(1);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: contain;
+  padding: 15px;
+  background-color: #fff;
+}
+
 .placeholder-box {
   min-height: 240px;
 }
